@@ -8,7 +8,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.tp4_productos.modelo.Producto;
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    public static ArrayList<Producto> listaProductos = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
